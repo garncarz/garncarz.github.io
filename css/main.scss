@@ -1,0 +1,45 @@
+---
+---
+
+$primary-color: purple;
+
+@import 'foundation/foundation';
+@include foundation-everything;
+@include foundation-flex-grid;
+
+@import 'font-awesome/font-awesome';
+
+
+body {
+    height: 100%;
+
+    font-family: "Noticia Text";
+
+    @media #{$medium-up} {
+        background: linear-gradient(to bottom right, gold, white, white, white);
+    }
+}
+
+#main {
+    height: 100%;
+}
+
+#photo {
+    max-width: 300px;
+}
+
+h1 {
+    font-family: Palatino Linotype;
+    font-size: xx-large;
+}
+
+a {
+    color: teal;
+
+    &:hover { color: purple; }
+    &.secondary { color: gray; }
+}
+
+i.fa {
+    font-size: 1.5em;
+}

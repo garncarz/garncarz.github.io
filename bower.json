@@ -1,0 +1,7 @@
+{
+    "name": "My GitHub Page",
+    "dependencies": {
+        "foundation-sites": "",
+        "components-font-awesome": ""
+    }
+}
