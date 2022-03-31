@@ -7,7 +7,9 @@ $primary-color: purple;
 @include foundation-everything;
 @include foundation-flex-grid;
 
-@import 'font-awesome/font-awesome';
+@import 'font-awesome/fontawesome';
+@import 'font-awesome/solid';
+@import 'font-awesome/brands';
 
 
 body {
@@ -46,7 +48,7 @@ a {
     }
 }
 
-i.fa {
+i.fa, i.fa-brands {
     font-size: 2.5em;
     margin-right: 0.2em;
 }
